@@ -21,7 +21,7 @@ pidgeon_list.each do |pidgeon_name, values|
     data.each do |color_gender_lives, values|
       values.each do |inner_value, array|
           array.each do |element|
-              if element == name && pidgeon_list_key == color_gender_lives
+              if element == pidgeon_name && pidgeon_list_key == color_gender_lives
                 pidgeon_list[pidgeon_name][pidgeon_list_key] << inner_value.to_s
           end
       end
