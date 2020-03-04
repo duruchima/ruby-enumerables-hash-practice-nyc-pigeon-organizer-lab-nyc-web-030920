@@ -30,5 +30,6 @@ pidgeon_list.map do |pidgeon_name, values|
 
   end
   end
+end
   pidgeon_list
 end
